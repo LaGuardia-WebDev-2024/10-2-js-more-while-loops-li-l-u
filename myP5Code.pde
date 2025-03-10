@@ -11,5 +11,14 @@ setup = function() {
   // Draw the tree and grass once
   text("🌼", 0, 340);
   text("🎈", 0, 200);
+  
+  var x = 0;
+
+while (x < 390) {
+   text("🌼", x, 340);
+   text("🎈", x, 200);
+   x += 30;
+}
+
 };
 
